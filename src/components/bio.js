@@ -54,12 +54,14 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+        Personal blog by{" "}
+        <a href={`https://twitter.com/${social.twitter}`} target="_blank">
+          Federico Babrauskas
         </a>
+        .
+        <span style={{ display: "block" }}>
+          I'm a web developer trying to share my kwowledge with other devs 🤓
+        </span>
       </p>
     </div>
   )
