@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Babrasoft`,
     author: `Federico Babrauskas`,
-    description: `My personal blog made with Gatsby`,
+    description: `Personal blog by Federico Babrauskas`,
     siteUrl: `https://babrasoft.com`,
     social: {
       twitter: `fedebabrauskas`,
