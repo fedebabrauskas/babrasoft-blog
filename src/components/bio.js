@@ -64,7 +64,7 @@ const Bio = () => {
         </a>
         .
         <span style={{ display: "block" }}>
-          I'm a passionate Javascript Developer, trying to make a better{" "}
+          I'm a passionate Javascript developer, trying to make a better{" "}
           <span role="img" aria-label="world emoji">
             🌎
           </span>
