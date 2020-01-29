@@ -55,12 +55,20 @@ const Bio = () => {
       />
       <p>
         Personal blog by{" "}
-        <a href={`https://twitter.com/${social.twitter}`} target="_blank">
+        <a
+          href={`https://twitter.com/${social.twitter}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Federico Babrauskas
         </a>
         .
         <span style={{ display: "block" }}>
-          I'm a web developer trying to share my kwowledge with other devs 🤓
+          I'm a passionate Javascript Developer, trying to make a better{" "}
+          <span role="img" aria-label="world emoji">
+            🌎
+          </span>
+          .
         </span>
       </p>
     </div>
