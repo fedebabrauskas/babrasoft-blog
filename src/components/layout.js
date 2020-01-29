@@ -29,7 +29,6 @@ const Layout = ({ location, title, children }) => {
           ...scale(1.5),
           marginBottom: rhythm(1.5),
           marginTop: 0,
-          fontSize: "3rem",
         }}
       >
         <Link
@@ -77,11 +76,19 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        <a target="_blank" href={`https://twitter.com/${social.twitter}`}>
+        <a
+          target="_blank"
+          href={`https://twitter.com/${social.twitter}`}
+          rel="noopener noreferrer"
+        >
           twitter
         </a>
         {" • "}
-        <a target="_blank" href={`https://github.com/${social.github}`}>
+        <a
+          target="_blank"
+          href={`https://github.com/${social.github}`}
+          rel="noopener noreferrer"
+        >
           github
         </a>
       </footer>
